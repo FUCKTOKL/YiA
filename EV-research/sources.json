@@ -1,0 +1,205 @@
+{
+  "topic": "E.V. in Spider-Man: Brand New Day",
+  "retrieved_on": "2026-11-13",
+  "scope": "Public sources and research leads; not an exhaustive official dataset",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Sony 美国影片页",
+      "url": "https://www.sonypictures.com/movies/spidermanbrandnewday",
+      "published_date_note": "未列",
+      "category": "A",
+      "access_and_use": "已读取；作品背景、官方观看入口与视频关联",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S02",
+      "title": "Sony 瑞士影片页",
+      "url": "https://www.sonypictures.ch/index.php/fr/films/spider-man-brand-new-day",
+      "published_date_note": "未列",
+      "category": "A",
+      "access_and_use": "已读取；官方剧照及预告入口",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S03",
+      "title": "EW 剧本与导演批注",
+      "url": "https://ew.com/spider-man-brand-new-day-script-pages-opening-scene-exclusive-11960491",
+      "published_date_note": "2026-04-29",
+      "category": "A",
+      "access_and_use": "已通过网页工具读取；直接下载请求返回限制，未绕过",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S04",
+      "title": "EW 配音报道",
+      "url": "https://ew.com/naomi-watts-spider-man-brand-new-day-ev-role-tom-holland-reunion-12033995",
+      "published_date_note": "2026-08-04",
+      "category": "B",
+      "access_and_use": "已读取；英语配音及演员公开发帖报道",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S05",
+      "title": "Variety 演员幕后报道",
+      "url": "https://au.variety.com/2026/film/news/naomi-watts-spider-man-brand-new-day-role-tom-holland-reunion-39144/",
+      "published_date_note": "2026-08-05",
+      "category": "B",
+      "access_and_use": "已读取；录音幕后与社交帖子来源链",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S06",
+      "title": "Digital Spy 配音与功能报道",
+      "url": "https://www.digitalspy.com/movies/a73325880/spider-man-brand-new-day-secret-tom-holland-reunion/",
+      "published_date_note": "2026-08-02",
+      "category": "B",
+      "access_and_use": "已读取；监测、导航和行动协助的描述",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S07",
+      "title": "The Direct 配音与工作台报道",
+      "url": "https://thedirect.com/article/marvel-studios-naomi-watts-mcu-role",
+      "published_date_note": "2026-08-01",
+      "category": "B",
+      "access_and_use": "已读取；工作台与战衣接入说明",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S08",
+      "title": "Fast Company 公开剧本讨论",
+      "url": "https://www.fastcompany.com/91535483/spider-man-spiderman-brand-new-day-peter-parker-only-friend-is-ai-marvel",
+      "published_date_note": "2026-05-01",
+      "category": "B",
+      "access_and_use": "已读取；设备校准交互，以及上映前舆论背景",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S09",
+      "title": "/Film 配音报道",
+      "url": "https://www.slashfilm.com/2226537/peter-parker-ai-assistant-ev-spider-man-brand-new-day-voice-naomi-watts/",
+      "published_date_note": "2026-07-30",
+      "category": "B",
+      "access_and_use": "已读取；研究与提示功能、IMG06—IMG07 图片出处",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S10",
+      "title": "The Direct HUD 画面报道",
+      "url": "https://thedirect.com/article/spider-man-brand-new-day-sadie-sink-jean-grey-powers-scene-cgi",
+      "published_date_note": "2026-10-25",
+      "category": "B",
+      "access_and_use": "已读取；IMG01—IMG03 图片与分析任务关联",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S11",
+      "title": "TheWrap 演员发帖报道",
+      "url": "https://www.thewrap.com/creative-content/movies/naomi-watts-tom-holland-spider-man-brand-new-day-reunion/",
+      "published_date_note": "2026-08-04",
+      "category": "B",
+      "access_and_use": "已读取；E.V.I.E. 写法与原始帖子链接",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S12",
+      "title": "Moviepilot 配音报道",
+      "url": "https://www.moviepilot.de/news/hollywood-star-hat-geheime-rolle-in-spider-man-brand-new-day-habt-ihr-sie-erkannt-1163956",
+      "published_date_note": "2026-08-11",
+      "category": "B",
+      "access_and_use": "已读取；Evie 读音描述",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S13",
+      "title": "Naomi Watts Instagram 帖子",
+      "url": "https://www.instagram.com/p/DboIYe9nUxP/",
+      "published_date_note": "未独立核实",
+      "category": "A",
+      "access_and_use": "入口由媒体链接确认；本轮访问受限，未直接读取",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S14",
+      "title": "Sony 美国页关联终极预告",
+      "url": "https://www.youtube.com/watch?v=P3uI5sLosKU",
+      "published_date_note": "未核实",
+      "category": "A",
+      "access_and_use": "确认官方页面嵌入关联与标题；未播放",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S15",
+      "title": "Sony 瑞士页关联预告",
+      "url": "https://www.youtube.com/watch?v=_Qg_gVG5FUY",
+      "published_date_note": "未核实",
+      "category": "A",
+      "access_and_use": "确认官方页面关联；视频读取受限",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S16",
+      "title": "Art of VFX：Jerome Chen 访谈",
+      "url": "https://www.artofvfx.com/spider-man-brand-new-day-jerome-chen-production-vfx-supervisor/",
+      "published_date_note": "未核实",
+      "category": "C",
+      "access_and_use": "检索摘要涉及 HUD 制作；原页返回 403，仅作制作线索",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S17",
+      "title": "GamesRadar+ 角色分析",
+      "url": "https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-day-should-be-the-blueprint-for-future-mcu-crossover-movies/",
+      "published_date_note": "2026-08-03",
+      "category": "B",
+      "access_and_use": "已读取；面部识别的剧情描述",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S18",
+      "title": "GamesRadar+ 结局分析",
+      "url": "https://www.gamesradar.com/entertainment/marvel-movies/im-glad-spider-man-brand-new-day-doesnt-completely-undo-the-no-way-home-ending/",
+      "published_date_note": "2026-07-31",
+      "category": "B",
+      "access_and_use": "已读取；状态提醒的剧情描述",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S19",
+      "title": "Forever Dreaming 非官方转录",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?p=372538",
+      "published_date_note": "页面检索显示 2026-08-08",
+      "category": "C",
+      "access_and_use": "检索摘要；仅作待命、提醒与工作台指令的复核线索",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S20",
+      "title": "Ouru77/ev-assistant README",
+      "url": "https://github.com/Ouru77/ev-assistant/blob/main/README.md",
+      "published_date_note": "持续更新",
+      "category": "R",
+      "access_and_use": "已读取部分 README；未安装、未运行、未审计",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S21",
+      "title": "Alan-Betty/EV README",
+      "url": "https://github.com/Alan-Betty/EV/blob/main/README.md",
+      "published_date_note": "持续更新",
+      "category": "R",
+      "access_and_use": "已读取部分 README；现自称 L.E.O.，未安装或测试",
+      "retrieved_on": "2026-11-13"
+    },
+    {
+      "id": "S22",
+      "title": "wasmiester/NOVA README",
+      "url": "https://github.com/wasmiester/NOVA/blob/main/README.md",
+      "published_date_note": "持续更新",
+      "category": "R",
+      "access_and_use": "已读取部分 README；开发中项目，未安装或测试",
+      "retrieved_on": "2026-11-13"
+    }
+  ]
+}

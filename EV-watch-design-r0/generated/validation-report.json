@@ -1,0 +1,52 @@
+{
+  "revision": "R0",
+  "mesh_checks": [
+    {
+      "file": "case-body.stl",
+      "triangles": 3580,
+      "closed_edge_count": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -23,
+          -27,
+          1.8
+        ],
+        [
+          23,
+          27,
+          16.2
+        ]
+      ],
+      "volume_mm3": 5487
+    },
+    {
+      "file": "case-back.stl",
+      "triangles": 3956,
+      "closed_edge_count": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -23,
+          -22,
+          -0.799999
+        ],
+        [
+          23,
+          22,
+          3
+        ]
+      ],
+      "volume_mm3": 3517
+    }
+  ],
+  "local_links_checked": 22,
+  "status": "passed",
+  "not_checked": [
+    "Electrical correctness / schematic ERC / PCB DRC",
+    "KiCad import / production land patterns",
+    "Supplier fits and manufacturing tolerances",
+    "Optical, RF, acoustic, thermal and battery testing",
+    "Medical performance"
+  ]
+}

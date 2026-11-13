@@ -1,0 +1,19 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and local runtime data
+node_modules/
+/data/
+/logs/
+*.log
+
+# Duplicate export bundles; expanded sources are tracked
+/*.zip
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

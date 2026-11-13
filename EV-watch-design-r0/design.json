@@ -1,0 +1,49 @@
+{
+  "revision": "R0",
+  "status": "Engineering concept: mechanical CAD and PCB placement only; not for fabrication",
+  "units": "mm",
+  "case": {"width":46,"height":44,"radius":8,"top":17,"wall":1.6,"back":1.8,"body_top":16.2,"lug_span":54,"strap":22,"strap_gap":22.4},
+  "main": {"width":37.6,"height":35.6,"radius":4,"thickness":0.8,"layers":4,"z":10,"hole_diameter":2,"holes":[[-16.8,-14.8],[16.8,-14.8],[16.8,14.8],[-16.8,14.8]]},
+  "sensor": {"width":16,"height":14,"radius":2,"thickness":0.6,"layers":2,"z":3,"hole_diameter":1.4,"holes":[[-6,-5],[6,-5]]},
+  "battery": {"width":30,"height":26,"thickness":4,"x":0,"y":-2,"z":4.6,"status":"Maximum reserved cell envelope, including protection and leads; no cell selected"},
+  "display": {"width":31.52,"height":33.72,"thickness":1.9,"active":27.72,"view":28.72,"opening":29.4,"z":13.7,"candidate":"ER-TFT1.54-1; 240x240 SPI; 2.8V nominal; electrical interface not released"},
+  "glass": {"width":42,"height":40,"radius":6,"thickness":0.8,"z":16.2},
+  "antenna": {"width":22,"height":5,"x":0,"y":23.5,"z":13.7,"status":"External FPC antenna mechanical reservation; antenna and cable SKU not selected"},
+  "vibration": {"width":4,"height":8,"thickness":3,"x":-18.5,"y":-4,"z":5.4,"status":"Mechanical reservation; motor type and driver not released"},
+  "main_components": [
+    {"ref":"U1","name":"ESP32-S3 MINI-1U","part":"ESP32-S3-MINI-1U-N4R2","x":-8,"y":5,"w":15.4,"h":15.4,"t":2.4,"color":"#2f6f8d","kind":"package"},
+    {"ref":"SPK1","name":"SPEAKER RESERVE","part":"TBD 12x8x2.5 maximum envelope","x":10,"y":8,"w":12,"h":8,"t":2.5,"color":"#5d7280","kind":"envelope"},
+    {"ref":"MIC1","name":"I2S MIC","part":"SPH0645LM4H-B candidate; lifecycle and supplier check pending","x":-13,"y":-8,"w":3.5,"h":2.65,"t":0.98,"color":"#7b5a8c","kind":"package"},
+    {"ref":"U2","name":"CHARGER + NTC","part":"BQ24074 plus passives reservation","x":-8,"y":-10,"w":6,"h":5,"t":1,"color":"#ac7332","kind":"zone"},
+    {"ref":"U3","name":"3V3 BUCK-BOOST","part":"TPS63802 plus inductor and capacitors reservation","x":0,"y":-10,"w":6,"h":5,"t":1.2,"color":"#ac7332","kind":"zone"},
+    {"ref":"U4","name":"5V LED BOOST","part":"TPS61099 plus passives reservation","x":8,"y":-10,"w":6,"h":5,"t":1.2,"color":"#ac7332","kind":"zone"},
+    {"ref":"U5","name":"LDO + LCD IO","part":"TPS7A02 1.8V and 2.8V; LCD level translators TBD","x":-3,"y":-5,"w":7,"h":4,"t":1,"color":"#8e7548","kind":"zone"},
+    {"ref":"U6","name":"I2S AMP","part":"MAX98357A TQFN candidate","x":11,"y":0,"w":3,"h":3,"t":0.75,"color":"#7b5a8c","kind":"package"},
+    {"ref":"U7","name":"BMI270","part":"BMI270","x":4,"y":0,"w":2.5,"h":3,"t":0.83,"color":"#387e73","kind":"package"},
+    {"ref":"U8","name":"I2C SHIFT","part":"PCA9306 with pull-ups reservation","x":4.5,"y":-5,"w":4,"h":3,"t":1,"color":"#8e7548","kind":"zone"},
+    {"ref":"J1","name":"LCD FPC","part":"FPC landing area only; panel tail/pinout and connector not selected","x":1,"y":-15,"w":12,"h":3,"t":1,"color":"#4f6471","kind":"envelope"},
+    {"ref":"J2","name":"SENSOR FPC","part":"Reserved 8-pin 0.5mm interface; connector not selected","x":-11,"y":-15,"w":6,"h":2.5,"t":1,"color":"#4f6471","kind":"envelope"},
+    {"ref":"J3","name":"BAT WIRE","part":"Solder wire termination and strain relief reservation","x":14,"y":-5,"w":4,"h":2,"t":1,"color":"#4f6471","kind":"envelope"},
+    {"ref":"J4","name":"CHARGE","part":"Pogo lead termination reservation","x":17,"y":-9,"w":3,"h":3,"t":1,"color":"#4f6471","kind":"envelope"},
+    {"ref":"TP","name":"USB / BOOT","part":"Service test point region; no released pad pattern","x":12.5,"y":-14,"w":5,"h":2.5,"t":0.2,"color":"#4f6471","kind":"envelope"}
+  ],
+  "sensor_components": [
+    {"ref":"U9","name":"MAX30101","part":"MAX30101EFD+","x":0,"y":0,"w":5.6,"h":3.3,"t":1.55,"color":"#387e73","kind":"package"},
+    {"ref":"U10","name":"MAX30208","part":"MAX30208; thermal isolation island concept","x":-6.5,"y":4.5,"w":2,"h":2,"t":0.75,"color":"#b27835","kind":"package"}
+  ],
+  "sources": [
+    {"part":"ESP32-S3-MINI-1U","url":"https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.html"},
+    {"part":"MAX30101","url":"https://www.analog.com/en/products/max30101.html"},
+    {"part":"MAX30208","url":"https://www.analog.com/en/products/MAX30208.html"},
+    {"part":"BMI270","url":"https://www.bosch-sensortec.com/en/products/motion-sensors/imus/bmi270"},
+    {"part":"BQ24074","url":"https://www.ti.com/product/BQ24074"},
+    {"part":"TPS63802","url":"https://www.ti.com/product/TPS63802"},
+    {"part":"TPS61099","url":"https://www.ti.com/product/TPS61099"},
+    {"part":"TPS7A02","url":"https://www.ti.com/product/TPS7A02"},
+    {"part":"PCA9306","url":"https://www.ti.com/product/PCA9306"},
+    {"part":"TXU0104","url":"https://www.ti.com/product/TXU0104"},
+    {"part":"MAX98357A","url":"https://www.analog.com/en/products/MAX98357A.html"},
+    {"part":"SPH0645LM4H-B","url":"https://www.knowles.com/docs/default-source/model-downloads/sph0645lm4h-b-datasheet-rev-c.pdf"},
+    {"part":"ER-TFT1.54-1 mechanical reference","url":"https://www.buydisplay.com/chinese/catalog/product/view/id/1815/"}
+  ]
+}

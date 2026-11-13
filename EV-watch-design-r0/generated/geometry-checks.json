@@ -1,0 +1,18 @@
+{
+  "revision": "R0",
+  "checks": [
+    "board and battery envelopes",
+    "layer Z gaps",
+    "mounting-hole centers",
+    "main component envelope bounds",
+    "main component envelope non-overlap",
+    "KiCad S-expression balance"
+  ],
+  "passed": true,
+  "limitations": [
+    "Not an electrical DRC/ERC",
+    "No verified package land patterns",
+    "No RF/thermal/acoustic/optical simulation",
+    "Full supplier courtyards, routing and assembly fits not validated"
+  ]
+}
