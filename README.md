@@ -13,10 +13,13 @@ YiA 是基于 Pi Coding Agent 规划的个人 AI 助理：通过自制 YiA Watch
 
 完整需求与首版验收顺序见 [YiA 产品设定](./YiA-产品设定.md)。该文件优先于早期 EV 方案。
 
+换电脑接手时，先克隆仓库，在项目根目录打开开发工具，让 Agent 阅读 [AGENTS.md](./AGENTS.md)。其中包含此前对话的关键决定、当前进度、接手步骤与校验命令，无需旧聊天记录。
+
 ## 资料入口
 
 | 内容 | 入口 |
 |---|---|
+| Agent 协作与换机交接 | [AGENTS.md](./AGENTS.md) |
 | 当前产品设定 | [YiA 产品设定](./YiA-产品设定.md) |
 | 身体感知与主动交互 | [感知方案](./EV-身体感知与主动交互方案.md) |
 | 手表外形、CAD 与 PCB 分区 | [手表 R0](./EV-watch-design-r0/README.md) |
